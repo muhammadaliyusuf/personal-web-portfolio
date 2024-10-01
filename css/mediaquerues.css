@@ -1,0 +1,160 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        padding-bottom: 3rem;
+    }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
+
+    #contact,
+    #projects {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #default-navbar {
+        display: none;
+    }
+
+    #hamburger-navbar {
+        display: flex;
+    }
+
+    #profile {
+        padding-top: 9rem;
+    }
+
+    #experience,
+    .experience-details-container {
+        margin-top: 2rem;
+    }
+
+    #profile,
+    .article-container {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    article,
+    .article-container {
+        height: fit-content;
+    }
+
+    article {
+        margin: 0 5%;
+    }
+
+    .article-pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about-container {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact {
+        height: 80vh;
+    }
+
+    footer {
+        height: 40vh;
+        margin: 0 1rem;
+    }
+
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+
+    section {
+        font-size: 1rem;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 5rem;
+    }
+
+    .about-container,
+    .contact-info-upper-container,
+    .btn-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-info-upper-container {
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+    .contact-info-container {
+        margin: 0;
+    }
+
+    .sosmed {
+        gap: 1rem;
+    }
+
+    .contact-info-container p,
+    .nav-links li a {
+        font-size: 1rem;
+    }
+
+    .experience-sub-title {
+        font-size: 1.25rem;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .article-pic-container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
+    .text-p2 {
+        font-size: 1.25rem;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .text-container {
+        text-align: justify;
+    }
+
+    .contact-info-upper-container h1 {
+        margin: 0 auto;
+    }
+
+    .contact-pic-container {
+        display: flex;
+        height: 150px;
+        width: 150px;
+        margin: 0.5rem auto 0.5rem;
+        justify-content: center;
+    }
+
+    .contact-pic {
+        border-radius: 50%;
+        overflow: hidden;
+        }
+}
